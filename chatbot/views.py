@@ -30,7 +30,8 @@ def callback(request):
         for event in events:
             if isinstance(event, MessageEvent):
                 if isinstance(event.message, TextMessage): # 確保為文字訊息
-                    #print(event.message.text)
+                    print("User:", event.message.text)
+                    print("Reply_token", event.reply_token)
                     response = chatbot.get_response(event.message.text)
                     line_bot_api.reply_message(
                         event.reply_token,
