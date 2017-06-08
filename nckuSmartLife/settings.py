@@ -30,6 +30,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'lineweatherbot.herokuapp.com',
     '127.0.0.1',
+    'nckusmartlife.herokuapp.com'
 ]
 
 
