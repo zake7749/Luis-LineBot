@@ -1,19 +1,44 @@
-def task_switch(self, intent):
+from .restaurant import FoodHandler
+from .activity import ActivityHandler
+from .weather import WeatherHandler
 
-    '''
-    
-    :param intent: a string, LUIS's intent.name with best score 
-    :return: the task_handler 
-    '''
+class TaskSwitcher(object):
 
-    if intent == "Food":
-        return
+    def __init__(self):
 
-    if intent == "Activity":
-        return
+        self.food_handler = FoodHandler()
+        self.weather_handler = WeatherHandler()
+        self.activity_handler = ActivityHandler()
+        self.greeting_handler = None
+        self.speech_handler = None
 
-    if intent == "Greeting":
-        return
+        self.initialize_handlers()
 
-    if intent == "Weather":
-        return
+    def initialize_handlers(self):
+
+        print("[TaskSwitcher] Initializer all handlers......")
+        self.food_handler.load_data('data/Food.json')
+        self.activity_handler.load_data('data/Activity.json')
+        print("[TaskSwitcher] Initialization succeeded.")
+
+    def get_task_handler(self, intent):
+
+        '''
+        :param intent: a string, LUIS's intent.name with best score 
+        :return: the task_handler 
+        '''
+
+        if intent == "Food":
+            return self.food_handler
+
+        if intent == "Activity":
+            return self.activity_handler
+
+        if intent == "Greeting":
+            return None
+
+        if intent == "Weather":
+            return self.weather_handler
+
+        if intent == "Speech":
+            return None

@@ -1,1 +1,7 @@
 shell.sh
+test_weather.sh
+unit_testing.sh
+workflow_testing.sh
+__pycache__/
+*.pyc
+*.pyo

@@ -12,7 +12,6 @@ chatbot = Chatbot()
 line_bot_api = LineBotApi(settings.LINE_CHANNEL_ACCESS_TOKEN)
 parser = WebhookParser(settings.LINE_CHANNEL_SECRET) # 用於處理 Line 傳過來的訊息
 
-
 # 用於防範 CSRF
 @csrf_exempt
 def callback(request):

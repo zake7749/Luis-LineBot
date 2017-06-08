@@ -9,8 +9,11 @@ class TaskHandler(object):
 
     def load_data(self, path):
 
-        with open(path, 'r') as input:
+        with open(path, 'r', encoding='utf-8') as input:
             self.data = json.load(input)
+
+    def get_response(self, entity='None'):
+        raise NotImplementedError
 
     def get_random_response(self):
 
