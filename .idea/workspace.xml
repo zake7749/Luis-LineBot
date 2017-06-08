@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de4e32d-f164-4379-bb4a-088f99050d03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuisChatbot.py" afterPath="$PROJECT_DIR$/LuisChatbot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chatbot/views.py" afterPath="$PROJECT_DIR$/chatbot/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_modules/__init__.py" afterPath="$PROJECT_DIR$/task_modules/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_modules/activity.py" afterPath="$PROJECT_DIR$/task_modules/activity.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_modules/restaurant.py" afterPath="$PROJECT_DIR$/task_modules/restaurant.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_modules/task.py" afterPath="$PROJECT_DIR$/task_modules/task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_modules/task_switch.py" afterPath="$PROJECT_DIR$/task_modules/task_switch.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_modules/weather.py" afterPath="$PROJECT_DIR$/task_modules/weather.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/__init__.py" afterPath="$PROJECT_DIR$/utils/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/shell.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="7" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+              <caret line="7" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -49,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/chatbot/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="8">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -483,7 +474,7 @@
     <entry file="file://$PROJECT_DIR$/shell.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
-          <caret line="7" column="27" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+          <caret line="7" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -527,7 +518,7 @@
     <entry file="file://$PROJECT_DIR$/chatbot/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
