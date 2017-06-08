@@ -20,7 +20,7 @@ class Chatbot(object):
 
         #top_intent, entities = self.luis_wrapper.predict(query)
         handler = self.task_switcher.get_task_handler('Food')
-        response = handler.get_response(entities)
+        response = handler.get_response()
 
         return response
 
