@@ -18,8 +18,8 @@ class Chatbot(object):
 
     def get_response(self, query):
 
-        top_intent, entities = self.luis_wrapper.predict(query)
-        handler = self.task_switcher.get_task_handler(top_intent)
+        #top_intent, entities = self.luis_wrapper.predict(query)
+        handler = self.task_switcher.get_task_handler('Food')
         response = handler.get_response(entities)
 
         return response

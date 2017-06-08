@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8de4e32d-f164-4379-bb4a-088f99050d03" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task_modules/task_switch.py" afterPath="$PROJECT_DIR$/task_modules/task_switch.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LuisChatbot.py" afterPath="$PROJECT_DIR$/LuisChatbot.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +24,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LuisChatbot.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LuisChatbot.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LuisChatbot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+            <state relative-caret-position="316">
+              <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -36,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="task_switch.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="task_switch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task_modules/task_switch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+            <state relative-caret-position="478">
+              <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -78,12 +78,12 @@
         <option value="$PROJECT_DIR$/task_modules/task.py" />
         <option value="$PROJECT_DIR$/handler_unit_test.py" />
         <option value="$PROJECT_DIR$/workflow_testting.sh" />
-        <option value="$PROJECT_DIR$/LuisChatbot.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/chatbot/views.py" />
         <option value="$PROJECT_DIR$/nckuSmartLife/settings.py" />
         <option value="$PROJECT_DIR$/task_modules/none.py" />
         <option value="$PROJECT_DIR$/task_modules/task_switch.py" />
+        <option value="$PROJECT_DIR$/LuisChatbot.py" />
       </list>
     </option>
   </component>
@@ -451,14 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shell.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -509,22 +501,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LuisChatbot.py">
+    <entry file="file://$PROJECT_DIR$/task_modules/task_switch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        <state relative-caret-position="478">
+          <caret line="41" column="31" lean-forward="true" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding>
-            <element signature="e#0#36#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task_modules/task_switch.py">
+    <entry file="file://$PROJECT_DIR$/shell.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="48" column="36" lean-forward="false" selection-start-line="48" selection-start-column="36" selection-end-line="48" selection-end-column="36" />
+        <state relative-caret-position="126">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LuisChatbot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" column="56" lean-forward="false" selection-start-line="21" selection-start-column="56" selection-end-line="21" selection-end-column="56" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
