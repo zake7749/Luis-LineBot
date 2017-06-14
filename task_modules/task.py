@@ -44,6 +44,6 @@ class TaskHandler(object):
         '''
 
         for entity in entities:
-            if entity_type == entity.get_name() and entity.get_score > threshold:
+            if entity_type == entity.get_type() and entity.get_score() > threshold:
                 return True
         return False

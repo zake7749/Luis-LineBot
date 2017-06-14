@@ -27,12 +27,8 @@ class Chatbot(object):
 def main():
 
     c = Chatbot()
-    print(c.get_response('等一下要去哪裡'))
-    print(c.get_response('今天要吃什麼'))
-    print(c.get_response('我想吃飯'))
-    print(c.get_response('我想吃麵'))
+    print(c.get_response('通識演講'))
     print(c.get_response('我想吃甜點'))
-    print(c.get_response('今天會下雨嗎'))
 
 if __name__ == "__main__":
     main()
