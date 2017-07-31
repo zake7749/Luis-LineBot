@@ -20,4 +20,4 @@ query = 'Hello! How are you?'
 top_intent, entities = luis_wrapper.predict(query)
 ```
 
-For more details on connecting a chatbot server to Line, please refer [Line-Chatbot](https://github.com/zake7749/Line-Chatbot)(django) or [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python)(flask)
+For more details on connecting a chatbot server to Line, please refer [Line-Chatbot](https://github.com/zake7749/Line-Chatbot) (on django) or [line-bot-sdk-python](https://github.com/line/line-bot-sdk-python) (on flask)
